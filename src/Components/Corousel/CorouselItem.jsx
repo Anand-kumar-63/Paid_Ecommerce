@@ -2,6 +2,7 @@ import React from "react";
 import { CgArrowRightR, CgArrowLeftR } from "react-icons/cg";
 
 const CorouselItem = ({ data }) => {
+    console.log(data)
   const [currentIndex, setCurrentIndex] = React.useState(0);
   function next() {
     setCurrentIndex((prev) => (prev + 4) % data.length);
