@@ -1,5 +1,5 @@
 import React from "react";
-import products from "./data";
+import products from "../Products/Data"
 import CorouselItem from "../../Components/Corousel/CorouselItem";
 import Fabrication from "../Fabrication/Fabrication";
 // The main App component that contains the entire website
