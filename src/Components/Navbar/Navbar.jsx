@@ -19,7 +19,7 @@ const Navbar = () => {
             <Link to='/AboutUs' className="text-slate-100 hover:text-sky-600 transition-colors">About Us</Link>
             <Link to='/ContactUs' className="text-slate-100 hover:text-sky-600 transition-colors">Contact Us</Link>
             <Link to='/Products' className="text-slate-100 hover:text-sky-600 transition-colors">Products</Link>
-            <Link to='/Maintenance' className="text-slate-100 hover:text-sky-600 transition-colors">Maintenance</Link>
+            <Link to='/maintenance' className="text-slate-100 hover:text-sky-600 transition-colors">Services</Link>
             {/* <Link to='/Fabrication' className="text-slate-100 hover:text-sky-600 transition-colors">Fabrication</Link> */}
           </div>
           {/* Mobile Menu Button */}
