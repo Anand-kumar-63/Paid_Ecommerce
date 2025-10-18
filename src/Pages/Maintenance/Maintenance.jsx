@@ -43,8 +43,6 @@ export default function Services() {
         <h2 className="text-4xl font-extrabold text-gray-900 text-center mb-12">
           We specialize in custom fabrication work, delivering high-quality solutions for every need:
         </h2>
-
-        {/* Responsive Grid for Works */}
         <div className="w-full max-w-6xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {works.map((item, index) => (
             <div
@@ -70,8 +68,7 @@ export default function Services() {
       {/* Maintenance Section */}
       <Maintenance />
     </section>
-  );
-}
+  );}
 
 function Maintenance() {
   return (
