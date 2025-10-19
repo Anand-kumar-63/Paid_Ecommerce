@@ -5,11 +5,6 @@ const works = [
     imageUrl: "https://www.playlsi.com/globalassets/1440x560-hero/challenging-play-02_1440x560.jpg",
   },
   {
-    title: "Government & Contractor Works",
-    description: "Trolleys, custom industrial fabrication, and heavy-duty solutions trusted by contractors and government projects.",
-    imageUrl: "https://media.biltrax.com/wp-content/uploads/2022/07/iStock-1028568006.jpg",
-  },
-  {
     title: "Schools & Hospitals",
     description: "Durable, safe, and long-lasting structures designed for educational and healthcare institutions.",
     imageUrl: "https://cdn.prod.website-files.com/66009083978d59646ab59be1/6799cdab67f89ea7bf001207_tmppy6c_h5b.jpeg",
