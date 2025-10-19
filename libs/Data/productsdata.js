@@ -11,9 +11,9 @@ export const products = [
     // NEW DETAILED FIELDS
     fullDescription: "Our Pouch Packaging Machines are industrial-grade solutions built for non-stop operation. They feature fully automated filling, precise volume control via servo motors, and triple-layer sealing technology. Ideal for diverse applications from spice powders and grains to liquids and consumer snacks, they offer a production throughput of up to 60 pouches per minute, ensuring maximum ROI. All machines meet rigorous quality and hygiene certifications.",
     gallery: [
-        "https://i.imgur.com/K1b2R3k.png", // Placeholder image 1
-        "https://i.imgur.com/L4c5R6z.png", // Placeholder image 2
-        "https://i.imgur.com/M7d8E9x.png", // Placeholder image 3
+        "/Images/pouchpackaging/pouchpackaging.png", // Placeholder image 1
+        "/Images/pouchpackaging/pouchpackaging2.png", // Placeholder image 2
+        // Placeholder image 3
     ],
     reviews: [
         { name: "Anil K.", rating: 5, text: "The machine quality is excellent. We saw a 30% reduction in material wastage immediately." },
@@ -32,8 +32,9 @@ export const products = [
     // NEW DETAILED FIELDS
     fullDescription: "These vertical form-fill-seal machines are optimized for low-viscosity liquids like water, milk, and juices. Key features include UV sanitation chambers, gravity or piston filling systems for accuracy, and continuous motion sealing. Constructed from food-grade Stainless Steel (SS304/SS316) to ensure strict hygiene, they achieve throughput rates of 40 to 50 sachets per minute with minimal maintenance required.",
     gallery: [
-        "https://i.imgur.com/A1b2C3d.png",
-        "https://i.imgur.com/E4f5G6h.png",
+        "/Images/liquidpackaging/liquidpackaging.png",
+        "/Images/liquidpackaging/liquidpackaging2.png",
+        "/Images/liquidpackaging/liquidpackaging3.png"
     ],
     reviews: [
         { name: "Manish R.", rating: 5, text: "A robust machine! Perfect for our dairy plant. Fills are consistent and leakage is zero." },
@@ -50,10 +51,13 @@ export const products = [
     // NEW DETAILED FIELDS
     fullDescription: "We supply heavy-duty industrial mixtures (Ribbon Blenders, Planetary Mixers) and versatile conveyor systems (Belt, Roller, and Screw Conveyors). Our equipment is custom-designed for the required load, speed, and material type, ensuring seamless integration into any production line. They enhance automation and drastically reduce bottlenecks in material handling.",
     gallery: [
-        "https://i.imgur.com/I8j9K0L.png",
-        "https://i.imgur.com/N1o2P3q.png",
-        "https://i.imgur.com/R4s5T6u.png",
-        "https://i.imgur.com/W7x8Y9z.png",
+        "/Images/conveyerbelt/converyers.png",
+        "/Images/conveyerbelt/converyers2.png",
+        "/Images/conveyerbelt/conveyers.png",
+        "/Images/mixtures/mixtures1.png",
+        "/Images/mixtures/mixtures4.png",
+        "/Images/mixtures/mixtures6.png",
+        "/Images/mixtures/mixtures5.png"
     ],
     reviews: [
         { name: "Suresh P.", rating: 4, text: "The belt conveyor system installed improved our sorting speed by 50%." },
@@ -72,8 +76,9 @@ export const products = [
     // NEW DETAILED FIELDS
     fullDescription: "Air Handling Unit (AHU) components including backward curved fans, forward curved blower drums, and industrial-grade air filters. Our parts are dynamically balanced for vibration-free operation, ensuring longevity and compliance with energy efficiency standards. Essential for pharmaceutical, cleanroom, and large-scale commercial HVAC applications.",
     gallery: [
-        "https://i.imgur.com/G2h3J4k.png",
-        "https://i.imgur.com/Q5r6S7t.png",
+        "/Images/AHU/AHUdrums.png",
+        "/Images/AHU/AHUdrums2.png",
+        "/Images/AHU/AHUdrums3.png",
     ],
     reviews: [
         { name: "Dr. Lokesh V.", rating: 5, text: "Excellent AHU fan, reduced our system's operational noise significantly." },
@@ -91,32 +96,13 @@ export const products = [
     // NEW DETAILED FIELDS
     fullDescription: "High-efficiency distribution and power transformers (Oil-filled and Dry Type). We offer custom kVA ratings, voltage classes up to 33kV, and integrated safety features like pressure relief valves. All units are tested against stringent national and international standards (BIS, IEC) for minimal power loss and maximum operational safety.",
     gallery: [
-        "https://i.imgur.com/Z9a0B1c.png",
-        "https://i.imgur.com/D2e3F4g.png",
-        "https://i.imgur.com/H5i6J7k.png",
+        "/Images/transformers/transformer3.png",
+        "/Images/transformers/transformers.png",
+        "/Images/transformers/transformers2.png",
     ],
     reviews: [
         { name: "PowerGrid Infra", rating: 5, text: "Reliable performance even under heavy load. The quality exceeded our expectations." },
         { name: "M. Khan", rating: 4, text: "Good transformer at a fair price. Delivery schedule was met without delay." },
-    ]
-  },
-  {
-    id: "06-vacuum-pumps",
-    title: "Vacuum Pumps",
-    description: "High-performance solutions for various industries. These pumps deliver consistent suction power, low maintenance, and energy efficiency, ideal for laboratories, manufacturing, and processing plants.",
-    priceRange: "₹1,00,000 – ₹3,50,000",
-    location: "Vatva GIDC, Ahmedabad",
-    phone: "+91 94567 89012",
-    image:
-      "https://cpimg.tistatic.com/04478093/b/8/Dry-Vacuum-Pumps.jpg",
-    // NEW DETAILED FIELDS
-    fullDescription: "A range of industrial vacuum pumps including Rotary Vane, Dry Scroll, and Liquid Ring models. They are engineered for stable vacuum levels, reduced noise, and energy conservation. Applications include food processing, chemical industries, and scientific research facilities. We provide pumps with capacity ranging from 10 CFM to 500 CFM.",
-    gallery: [
-        "https://i.imgur.com/V7w8X9y.png",
-        "https://i.imgur.com/T4u5V6w.png",
-    ],
-    reviews: [
-        { name: "Dr. Sandeep M.", rating: 5, text: "The vacuum stability is perfect for our lab experiments. Quiet and maintenance-free so far." },
     ]
   },
   {
@@ -131,33 +117,13 @@ export const products = [
     // NEW DETAILED FIELDS
     fullDescription: "We specialize in semi-automatic and fully automatic Offset and Flexographic printing machines. These units offer multi-color printing capabilities, precision registration systems, and compatibility with various substrates (paper, film, foil). Built to sustain high-volume commercial printing jobs with exceptional quality and minimal downtime.",
     gallery: [
-        "https://i.imgur.com/P1q2R3s.png",
-        "https://i.imgur.com/Y4z5A6b.png",
-        "https://i.imgur.com/C7d8E9f.png",
+        "/Images/printingmachines/printingmachine1.png",
+        "/Images/printingmachines/printingmachine2.png",
+        "/Images/printingmachines/printingmachine3.png",
     ],
     reviews: [
         { name: "Gaurav Printers", rating: 4, text: "Very robust machine, handles our daily load easily. Minor calibration issues were quickly resolved by support." },
         { name: "R. Sharma", rating: 5, text: "Highly satisfied with the print quality and speed." },
-    ]
-  },
-  {
-    id: "08-spare-parts",
-    title: "Spare Parts",
-    description: "Complete spare part solutions for all our machines. From belts and motors to electronic controls, we provide high-quality replacements to minimize downtime and maximize efficiency.",
-    priceRange: "₹5,000 – ₹50,000",
-    location: "Rajajinagar, Bengaluru",
-    phone: "+91 98765 11122",
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaVx0KFxpVWMha2ci8YBfpDFHILgCtlQTOhg&s",
-    // NEW DETAILED FIELDS
-    fullDescription: "A full inventory of genuine replacement parts, including electrical controls (PLCs, sensors), mechanical components (gears, bearings), and consumables (sealing belts, heating elements) for all machinery listed. We guarantee immediate availability for most critical items to ensure your production line experiences zero extended downtime.",
-    gallery: [
-        "https://i.imgur.com/F0g1H2i.png",
-        "https://i.imgur.com/J3k4L5m.png",
-    ],
-    reviews: [
-        { name: "Vikas M.", rating: 5, text: "Fast delivery of the required motor, saved our weekend production run." },
-        { name: "Deepa A.", rating: 5, text: "Always have the correct belts in stock. Excellent service." },
     ]
   },
 ];
@@ -168,13 +134,15 @@ export const works = [
     id: 1,
     title: "Playground Equipment",
     description: "Slides, chain swings, sea-saws, merry-go-rounds for schools and public parks with strong, child-safe designs.",
-    imageUrl: "https://www.playlsi.com/globalassets/1440x560-hero/challenging-play-02_1440x560.jpg",
+    imageUrl: "/Images/playground/Schools.png",
     // NEW DETAILED FIELDS
     fullDescription: "We custom-fabricate robust and colorful playground equipment designed with child safety as the top priority. All metal components are treated for rust resistance, and edges are rounded to meet safety standards. Our range includes multi-activity slides, durable chain swings, and merry-go-rounds built for heavy use in schools and municipal parks. We handle installation and provide a 5-year structural warranty.",
     gallery: [
-        "https://i.imgur.com/P1q2R3s.png", // Placeholder: Slides
-        "https://i.imgur.com/Y4z5A6b.png", // Placeholder: Swings
-        "https://i.imgur.com/C7d8E9f.png", // Placeholder: Merry-go-rounds
+        "/Images/playground/playground2.png", // Placeholder: Park benches
+        "/Images/playground/playground3.png", // Placeholder: Canopies
+        "/Images/playground/school2.png",
+        "/Images/playground/Schools.png",
+        "/Images/playground/swing.png" // Placeholder: Signage frames
     ],
     reviews: [
         { name: "Green Valley School", rating: 5, text: "The new equipment is high-quality and the installation was quick. The kids love the custom colors!" },
@@ -201,13 +169,15 @@ export const works = [
     id: 3,
     title: "Public & Society Parks",
     description: "Benches, canopies, play structures, and urban furniture for modern community parks and green spaces.",
-    imageUrl: "https://d34c09ztlk5mrb.cloudfront.net/cunningham-recreation/d2sacxxyngi6cb_cloudfront_net/Hoover_183d17ce614a305ef7e14498bef98c4b.jpg",
+    imageUrl: "/Images/playground/playground2.png",
     // NEW DETAILED FIELDS
     fullDescription: "We provide comprehensive fabrication services for public spaces, including aesthetically pleasing park benches (cast iron and steel), waste bins, outdoor fitness equipment frames, and structural canopies for seating areas. All products are coated with weather-resistant paint for maximum outdoor durability and longevity against harsh weather conditions.",
     gallery: [
-        "https://i.imgur.com/M7d8E9x.png", // Placeholder: Park benches
-        "https://i.imgur.com/A1b2C3d.png", // Placeholder: Canopies
-        "https://i.imgur.com/E4f5G6h.png", // Placeholder: Signage frames
+        "/Images/playground/playground2.png", // Placeholder: Park benches
+        "/Images/playground/playground3.png", // Placeholder: Canopies
+        "/Images/playground/school2.png",
+        "/Images/playground/Schools.png",
+        "/Images/playground/swing.png" // Placeholder: Signage frames
     ],
     reviews: [
         { name: "RWA, Sector 15", rating: 5, text: "The installed benches transformed our society park. Very sturdy and look great." },
@@ -217,13 +187,14 @@ export const works = [
     id: 4,
     title: "Gates, Grills & Railings",
     description: "Modern, stylish, and long-lasting designs in iron and steel for homes, offices, and industrial spaces.",
-    imageUrl: "https://i0.wp.com/laitoncrafts.com/wp-content/uploads/2023/04/grills-Image-copy.webp?fit=1920%2C1080&ssl=1",
+    imageUrl: "/Images/Gatesngrill/gates1.png",
     // NEW DETAILED FIELDS
     fullDescription: "We design, fabricate, and install custom security solutions, including automatic sliding gates, designer window grills, main entrance railings, and compound wall fences. We work with Wrought Iron, Mild Steel (MS), and Stainless Steel (SS), offering various finishes (powder coating, galvanizing) to match your architectural requirements and budget.",
     gallery: [
-        "https://i.imgur.com/I8j9K0L.png", // Placeholder: Residential Gate
-        "https://i.imgur.com/N1o2P3q.png", // Placeholder: Window Grills
-        "https://i.imgur.com/R4s5T6u.png", // Placeholder: Stair Railing
+        "/Images/Gatesngrill/gates1.png", // Placeholder: Residential Gate
+        "/Images/Gatesngrill/gates2.png", // Placeholder: Window Grills
+        "/Images/Gatesngrill/grills.png",
+        "/Images/Gatesngrill/grills2.png" // Placeholder: Stair Railing
     ],
     reviews: [
         { name: "Mr. V. Joshi", rating: 5, text: "The main gate fabrication was done quickly and the automatic mechanism works perfectly." },
@@ -249,13 +220,14 @@ export const works = [
     id: 6,
     title: "Industrial Sheds & Warehouses",
     description: "Fabrication and design of industrial sheds with maximum strength, durability, and cost efficiency.",
-    imageUrl: "https://assets.jswonemsme.com/medium_peb_industrial_28c55e9222/medium_peb_industrial_28c55e9222.jpg",
+    imageUrl: "/Images/shedanwarehouse/industrialsheds.png",
     // NEW DETAILED FIELDS
     fullDescription: "We offer end-to-end design and fabrication of Pre-Engineered Buildings (PEB) and industrial sheds. Our services cover structural analysis, foundation layout, fabrication of trusses, columns, and purlins, and final installation of roofing and wall cladding. We optimize designs for maximum clear span, quick erection time, and compliance with local seismic codes.",
     gallery: [
-        "https://i.imgur.com/Q5r6S7t.png", // Placeholder: Shed exterior
-        "https://i.imgur.com/V7w8X9y.png", // Placeholder: Shed interior structure
-        "https://i.imgur.com/T4u5V6w.png", // Placeholder: Installation process
+        "/Images/shedanwarehouse/industrialsheds.png", // Placeholder: Shed exterior
+        "/Images/shedanwarehouse/steels.png", // Placeholder: Shed interior structure
+        "/Images/shedanwarehouse/sheds.png",
+        "/Images/shedanwarehouse/sheda.png" // Placeholder: Installation process
     ],
     reviews: [
         { name: "Logistics Hub Pvt. Ltd.", rating: 5, text: "The new warehouse shed was completed on time and exactly to specification. Very solid build." },

@@ -24,8 +24,6 @@ export default function Products() {
               <div className="p-6 space-y-2">
                 <h3 className="text-xl font-semibold text-gray-800">{item.title}</h3>
                 <p className="text-gray-600">{item.description}</p>
-                <p className="text-gray-700 font-medium">💰 Price Range: {item.priceRange}</p>
-                <p className="text-gray-700">📍 Location: {item.location}</p>
                 <p className="text-gray-700">
                   📞 Phone:{" "}
                   <a href={`tel:${item.phone}`} className="text-blue-600 hover:underline">

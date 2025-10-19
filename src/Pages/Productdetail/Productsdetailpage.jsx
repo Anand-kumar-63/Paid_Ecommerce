@@ -51,18 +51,12 @@ export default function ProductDetailPage() {
                 {item.title}
               </h1>
               
-              <p className="text-2xl font-bold text-blue-600">
-                💰 {item.priceRange}
-              </p>
               <p className="text-xl text-gray-700 leading-relaxed italic border-l-4 border-yellow-400 pl-4">
                 "{item.description}"
               </p>
               <hr className="my-6" />
               <div className="space-y-3 bg-gray-50 p-4 rounded-lg border">
-                <p className="flex items-center text-lg text-gray-700">
-                  <MapPinIcon className="w-5 h-5 text-red-500 mr-2" />
-                  Location: <span className="font-semibold ml-2">{item.location}</span>
-                </p>
+            
                 <p className="flex items-center text-lg text-gray-700">
                   <PhoneIcon className="w-5 h-5 text-green-500 mr-2" />
                   Contact:{" "}
