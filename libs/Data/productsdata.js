@@ -161,3 +161,105 @@ export const products = [
     ]
   },
 ];
+
+// Works JSON data for works page 
+export const works = [
+  {
+    id: 1,
+    title: "Playground Equipment",
+    description: "Slides, chain swings, sea-saws, merry-go-rounds for schools and public parks with strong, child-safe designs.",
+    imageUrl: "https://www.playlsi.com/globalassets/1440x560-hero/challenging-play-02_1440x560.jpg",
+    // NEW DETAILED FIELDS
+    fullDescription: "We custom-fabricate robust and colorful playground equipment designed with child safety as the top priority. All metal components are treated for rust resistance, and edges are rounded to meet safety standards. Our range includes multi-activity slides, durable chain swings, and merry-go-rounds built for heavy use in schools and municipal parks. We handle installation and provide a 5-year structural warranty.",
+    gallery: [
+        "https://i.imgur.com/P1q2R3s.png", // Placeholder: Slides
+        "https://i.imgur.com/Y4z5A6b.png", // Placeholder: Swings
+        "https://i.imgur.com/C7d8E9f.png", // Placeholder: Merry-go-rounds
+    ],
+    reviews: [
+        { name: "Green Valley School", rating: 5, text: "The new equipment is high-quality and the installation was quick. The kids love the custom colors!" },
+        { name: "Pune Municipality", rating: 4, text: "Durable and weather-resistant structures. They held up well during the monsoon season." },
+    ]
+  },
+  {
+    id: 2,
+    title: "Schools & Hospitals Fabrication",
+    description: "Durable, safe, and long-lasting structures designed for educational and healthcare institutions.",
+    imageUrl: "https://cdn.prod.website-files.com/66009083978d59646ab59be1/6799cdab67f89ea7bf001207_tmppy6c_h5b.jpeg",
+    // NEW DETAILED FIELDS
+    fullDescription: "Our specialized fabrication services for institutional clients include heavy-duty security grills, modular storage solutions, cafeteria benches, stair railings, and boundary fencing. For hospitals, we prioritize sterile-grade stainless steel (SS 304) for railings and counter surfaces. Our designs focus on high traffic resilience and minimal maintenance.",
+    gallery: [
+        "https://i.imgur.com/K1b2R3k.png", // Placeholder: Hospital railing
+        "https://i.imgur.com/L4c5R6z.png", // Placeholder: School desks/benches
+    ],
+    reviews: [
+        { name: "City Care Hospital", rating: 5, text: "The SS railing work in the emergency ward was flawless. Very professional and adhered to all hygiene specs." },
+        { name: "Modern Junior College", rating: 4, text: "Excellent quality work on the main entrance gate and window grills." },
+    ]
+  },
+  {
+    id: 3,
+    title: "Public & Society Parks",
+    description: "Benches, canopies, play structures, and urban furniture for modern community parks and green spaces.",
+    imageUrl: "https://d34c09ztlk5mrb.cloudfront.net/cunningham-recreation/d2sacxxyngi6cb_cloudfront_net/Hoover_183d17ce614a305ef7e14498bef98c4b.jpg",
+    // NEW DETAILED FIELDS
+    fullDescription: "We provide comprehensive fabrication services for public spaces, including aesthetically pleasing park benches (cast iron and steel), waste bins, outdoor fitness equipment frames, and structural canopies for seating areas. All products are coated with weather-resistant paint for maximum outdoor durability and longevity against harsh weather conditions.",
+    gallery: [
+        "https://i.imgur.com/M7d8E9x.png", // Placeholder: Park benches
+        "https://i.imgur.com/A1b2C3d.png", // Placeholder: Canopies
+        "https://i.imgur.com/E4f5G6h.png", // Placeholder: Signage frames
+    ],
+    reviews: [
+        { name: "RWA, Sector 15", rating: 5, text: "The installed benches transformed our society park. Very sturdy and look great." },
+    ]
+  },
+  {
+    id: 4,
+    title: "Gates, Grills & Railings",
+    description: "Modern, stylish, and long-lasting designs in iron and steel for homes, offices, and industrial spaces.",
+    imageUrl: "https://i0.wp.com/laitoncrafts.com/wp-content/uploads/2023/04/grills-Image-copy.webp?fit=1920%2C1080&ssl=1",
+    // NEW DETAILED FIELDS
+    fullDescription: "We design, fabricate, and install custom security solutions, including automatic sliding gates, designer window grills, main entrance railings, and compound wall fences. We work with Wrought Iron, Mild Steel (MS), and Stainless Steel (SS), offering various finishes (powder coating, galvanizing) to match your architectural requirements and budget.",
+    gallery: [
+        "https://i.imgur.com/I8j9K0L.png", // Placeholder: Residential Gate
+        "https://i.imgur.com/N1o2P3q.png", // Placeholder: Window Grills
+        "https://i.imgur.com/R4s5T6u.png", // Placeholder: Stair Railing
+    ],
+    reviews: [
+        { name: "Mr. V. Joshi", rating: 5, text: "The main gate fabrication was done quickly and the automatic mechanism works perfectly." },
+        { name: "Apex Builders", rating: 4, text: "Consistent quality across all railing units supplied for our apartment complex." },
+    ]
+  },
+  {
+    id: 5,
+    title: "SS 304 Steel Work (Corrosion Resistant)",
+    description: "Professional stainless steel work with SS 304 grade – corrosion resistant and quality assured.",
+    imageUrl: "https://www.azom.com/images/Article_Thumbs/ThumbForArticle_2867_16010306047694886.png",
+    // NEW DETAILED FIELDS
+    fullDescription: "Our specialty is using Stainless Steel Grade 304, the industry standard for durability and corrosion resistance, particularly for exterior work, kitchen environments, and chemical processing areas. Services include fabrication of industrial pipelines, customized tanks, kitchen counters, exterior façade elements, and heavy-duty industrial racks. All welding is done by certified professionals.",
+    gallery: [
+        "https://i.imgur.com/W7x8Y9z.png", // Placeholder: SS tank/pipeline
+        "https://i.imgur.com/G2h3J4k.png", // Placeholder: SS kitchen counter
+    ],
+    reviews: [
+        { name: "ChemPro Industries", rating: 5, text: "The SS 304 pipeline fabrication was precise and passed all pressure tests perfectly. Highly reliable." },
+    ]
+  },
+  {
+    id: 6,
+    title: "Industrial Sheds & Warehouses",
+    description: "Fabrication and design of industrial sheds with maximum strength, durability, and cost efficiency.",
+    imageUrl: "https://assets.jswonemsme.com/medium_peb_industrial_28c55e9222/medium_peb_industrial_28c55e9222.jpg",
+    // NEW DETAILED FIELDS
+    fullDescription: "We offer end-to-end design and fabrication of Pre-Engineered Buildings (PEB) and industrial sheds. Our services cover structural analysis, foundation layout, fabrication of trusses, columns, and purlins, and final installation of roofing and wall cladding. We optimize designs for maximum clear span, quick erection time, and compliance with local seismic codes.",
+    gallery: [
+        "https://i.imgur.com/Q5r6S7t.png", // Placeholder: Shed exterior
+        "https://i.imgur.com/V7w8X9y.png", // Placeholder: Shed interior structure
+        "https://i.imgur.com/T4u5V6w.png", // Placeholder: Installation process
+    ],
+    reviews: [
+        { name: "Logistics Hub Pvt. Ltd.", rating: 5, text: "The new warehouse shed was completed on time and exactly to specification. Very solid build." },
+        { name: "J. Sharma", rating: 4, text: "Cost-effective solution compared to conventional construction. Good project management." },
+    ]
+  },
+];

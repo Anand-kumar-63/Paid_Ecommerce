@@ -1,36 +1,5 @@
-const works = [
-  {
-    title: "Playground Equipment",
-    description: "Slides, chain swings, sea-saws, merry-go-rounds for schools and public parks with strong, child-safe designs.",
-    imageUrl: "https://www.playlsi.com/globalassets/1440x560-hero/challenging-play-02_1440x560.jpg",
-  },
-  {
-    title: "Schools & Hospitals",
-    description: "Durable, safe, and long-lasting structures designed for educational and healthcare institutions.",
-    imageUrl: "https://cdn.prod.website-files.com/66009083978d59646ab59be1/6799cdab67f89ea7bf001207_tmppy6c_h5b.jpeg",
-  },
-  {
-    title: "Public & Society Parks",
-    description: "Benches, canopies, play structures, and urban furniture for modern community parks and green spaces.",
-    imageUrl: "https://d34c09ztlk5mrb.cloudfront.net/cunningham-recreation/d2sacxxyngi6cb_cloudfront_net/Hoover_183d17ce614a305ef7e14498bef98c4b.jpg",
-  },
-  {
-    title: "Gates, Grills & Railings",
-    description: "Modern, stylish, and long-lasting designs in iron and steel for homes, offices, and industrial spaces.",
-    imageUrl: "https://i0.wp.com/laitoncrafts.com/wp-content/uploads/2023/04/grills-Image-copy.webp?fit=1920%2C1080&ssl=1",
-  },
-  {
-    title: "SS 304 Steel Work",
-    description: "Professional stainless steel work with SS 304 grade – corrosion resistant and quality assured.",
-    imageUrl: "https://www.azom.com/images/Article_Thumbs/ThumbForArticle_2867_16010306047694886.png",
-  },
-  {
-    title: "Industrial Sheds",
-    description: "Fabrication and design of industrial sheds with maximum strength, durability, and cost efficiency.",
-    imageUrl: "https://assets.jswonemsme.com/medium_peb_industrial_28c55e9222/medium_peb_industrial_28c55e9222.jpg",
-  },
-];
-
+import {Link} from "react-router-dom";
+import {works} from "../../../libs/Data/productsdata"
 export default function Services() {
   return (
     <section className="bg-gray-100 py-16 px-4 sm:px-6 lg:px-8">
@@ -40,6 +9,7 @@ export default function Services() {
         </h2>
         <div className="w-full max-w-6xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {works.map((item, index) => (
+            <Link to={`/maintenance/${item.id}`} >
             <div
               key={index}
               className="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300"
@@ -56,11 +26,10 @@ export default function Services() {
                 <p className="text-gray-600">{item.description}</p>
               </div>
             </div>
+            </Link>
           ))}
         </div>
       </div>
-
-      {/* Maintenance Section */}
       <Maintenance />
     </section>
   );}

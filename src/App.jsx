@@ -7,6 +7,7 @@ import ContactUs from "./Pages/ContactUS/ContactUs";
 import Hero from './Pages/Hero/Hero'
 import Services from "./Pages/Maintenance/Maintenance"
 import ProductDetailPage from "./Pages/Productdetail/Productsdetailpage";
+import MaintenancedetailPage from "./Pages/MaintenanceDetail/MaintenancedetailPage";
 // import ServicesPage from "./Pages/Maintenance/page";
 function App() {
   return (
@@ -21,8 +22,8 @@ function App() {
           <Route path="/products/:productId" element={<ProductDetailPage />} />
           <Route path="/ContactUs" element={<ContactUs />} />
           <Route path="/maintenance" element={<Services/>}/>
-          {/* <Route path="/Servicepage" element={<ServicesPage/>}/> */}
-        </Routes>
+          <Route path="/maintenance/:maintenanceId" element={<MaintenancedetailPage />}/>
+          </Routes>
       </BrowserRouter>
     </div>
   );
