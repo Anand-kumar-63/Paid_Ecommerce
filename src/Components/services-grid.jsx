@@ -1,4 +1,4 @@
-import Link from "next/link"
+import { Link } from "react-router-dom"
 
 export function ServicesGrid({ items }) {
   return (
@@ -22,7 +22,7 @@ export function ServicesGrid({ items }) {
             <p className="text-sm text-muted-foreground">{item.description}</p>
             <div className="pt-2">
               <Link
-                href={`/services/${item.slug}`}
+                to={`/Servicepage`}
                 className="inline-flex items-center gap-2 text-primary hover:underline"
                 aria-label={`Learn more about ${item.title}`}
               >

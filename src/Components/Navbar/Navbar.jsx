@@ -1,12 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import AboutUs from "../../Pages/Aboutus/AboutsUs"
-import Services from "../../Pages/Services/Services";
-import Products from "../../Pages/Products/Product";
-import ContactUs from "../../Pages/ContactUS/ContactUs";
-import Hero from "../../Pages/Hero/Hero";
-import Fabrication from "../../Pages/Fabrication/Fabrication";
-import Maintenance from "../../Pages/Maintenance/Maintenance";
 
 
 const Navbar = () => {

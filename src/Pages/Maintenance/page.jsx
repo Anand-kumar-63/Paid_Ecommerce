@@ -1,10 +1,6 @@
-import { ServicesGrid } from "@/components/services-grid"
+import { ServicesGrid, sectors } from "../../Components/services-grid"
 
-export const metadata = {
-  title: "Fabrication Services",
-  description:
-    "Explore our custom fabrication sectors including playground equipment, industrial sheds, SS 304 work, gates, grills, railings, and more.",
-}
+// Metadata removed; not applicable in Vite React SPA
 
 export default function ServicesPage() {
   return (

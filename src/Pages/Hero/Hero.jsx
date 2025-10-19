@@ -11,7 +11,7 @@ const Hero = () => {
         {/* Home Section */}
         <section
           id="home"
-          className={`bg-[url(Images/HeroSection.jpg)] h-[92vh] bg-center relative py-24 md:py-32 overflow-hidden`}
+          className={`bg-[url('/Images/HeroSection.jpg')] h-[92vh] bg-center relative py-24 md:py-32 overflow-hidden`}
         >
           <div className="absolute inset-0 bg-black/20"></div>
           <div className="container mx-auto px-10 text-center relative z-10">
@@ -57,7 +57,7 @@ const Hero = () => {
           </div>
           <div>
             <img
-              src="Images/Aboutus.png"
+              src="/Images/Aboutus.png"
               alt="Aboutus"
               className="object-cover rounded-sm"
               height={30}
